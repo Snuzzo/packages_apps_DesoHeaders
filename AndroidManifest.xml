@@ -15,7 +15,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.omnirom.omnistyle"
+    package="com.deso.headers"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -31,10 +31,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
     <application
         android:allowBackup="false"
-        android:label="OmniStyle"
+        android:label="Desolation Headers"
         android:icon="@drawable/omnirom_logo" >
         <activity
-            android:name=".BrowseHeaderActivity"
+            android:name="com.deso.headers.BrowseHeaderActivity"
             android:label="@string/browse_header"
             android:theme="@android:style/Theme.Material.Settings" >
             <intent-filter>
@@ -44,35 +44,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             </intent-filter>
         </activity>
         <activity
-            android:name=".BrowseWallsActivity"
-            android:label="@string/browse_walls"
-            android:theme="@android:style/Theme.Material.Settings" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity-alias
-            android:name=".WallpaperActivity"
-            android:label="@string/omni_walls"
-            android:theme="@android:style/Theme.Material.Settings"
-            android:targetActivity="org.omnirom.omnistyle.BrowseWallsActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.SET_WALLPAPER" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity-alias>
-        <activity
-            android:name=".weather_color"
-            android:label="LockClock (color)" >
-            <intent-filter>
-                <action android:name="org.omnirom.WeatherIconPack" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
             android:name=".nature"
             android:label="Nature" >
             <intent-filter>
@@ -81,10 +52,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".poly"
-            android:label="Poly" >
+            android:name=".desolation"
+            android:label="Deso By WallsbyMcBalls" >
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
 
@@ -92,34 +62,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".naturerandom"
-            android:label="Nature (random)" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".wavvy"
-            android:label="Wavvy" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".omni_syed"
-            android:label="Syed" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
     </application>
 </manifest>

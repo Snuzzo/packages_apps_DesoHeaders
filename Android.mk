@@ -34,7 +34,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v7.cardview
 
 LOCAL_SRC_FILES := $(call all-subdir-java-files)
-LOCAL_PACKAGE_NAME := OmniStyle
+LOCAL_PACKAGE_NAME := DesoHeaders
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_TAGS := optional

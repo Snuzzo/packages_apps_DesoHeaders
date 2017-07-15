@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  Copyright (C) 2016 The OmniROM Project
+<!--  Copyright (C) 2015 The OmniROM Project
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -20,10 +20,11 @@ entry can only be only one of hour or day/month type
 day_header entries have a higher priority then hour entries -->
 
 <daylight_headers>
-    <hour_header hour="6" image="poly_sunrise" />
-    <hour_header hour="9" image="poly_morning" />
-    <hour_header hour="11" image="poly_noon" />
-    <hour_header hour="13" image="poly_afternoon" />
-    <hour_header hour="19" image="poly_sunset" />
-    <hour_header hour="21" image="poly_night" />
+    <change_interval minutes="5" />
+    <list_header image="deso1" />
+    <list_header image="deso2" />
+    <list_header image="deso3" />
+    <list_header image="deso4" />
+    <list_header image="deso5" />
+    <list_header image="deso6" />
 </daylight_headers>
